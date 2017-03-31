@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.43;
+	background: #fff;
+}
+
+.wrap{
+	max-width: 800px;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	background: linear-gradient(to top right, #ff512f, #dd2476);
+}
+
+.container{
+	display: inline-block;
+	max-width: 57.5%;
+	width: 57.5%;
+	background: #fff;
+	margin: auto;
+	margin-top: 61px;
+	margin-bottom: 69px;
+	border-radius: 3px;
+}
+
+.form{
+	display: inline-block;
+	max-width: 86.9565%;
+	width: 86.9565%;
+	text-align: center;
+}
+
+.form{
+	transition: all .5s ease;
+}
+
+.form-header{
+	vertical-align: top;
+	margin-top: 26px;
+	margin-bottom: 35px;
+	text-align: left;
+}
+
+.form-header img, h1{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+}
+
+.form-header h1{
+	margin: 0;
+	font-size: 24px;
+	line-height: 1;
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+.form-header p{
+	font-size: 13px;
+	text-align: left;
+	color: #7a7b7f;
+	margin: 0;
+	margin-top: 15px;
+
+}
+
+input{
+	box-sizing: border-box;
+	display: inline-block;
+	border: 0;
+	font-size: 14px;
+	line-height: 1.4286;
+	padding: 8px;
+	background: #f0f0f0;
+	border-radius: 3px;
+}
+
+input:hover{
+	background: rgba(234,53,90, 0.5);
+}
+
+/*::-webkit-input-placeholder {color:#c0392b;}*/
+
+input:hover::-webkit-input-placeholder{
+	color:#fff;
+}
+
+input[type="text"]{
+	max-width: 48.125%;
+	width: 48.125%;
+	float: left;
+	padding-left: 14px;
+	padding-top: 10px;
+}
+
+input[placeholder="First name"]{
+	margin-right: 15px;
+}
+
+input[type="email"]{
+	clear: both;
+	max-width: 100%;
+	width: 100%;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-left: 13px;
+	padding-bottom: 10px;
+}
+
+input[type="password"]{
+	max-width: 100%;
+	width: 100%;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-left: 13px;
+	padding-bottom: 10px;
+}
+
+button{
+	max-width: 100%;
+	width: 100%;
+	margin-top: 15px;
+	background: #ea355a;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1;
+	padding-top: 17px;
+	padding-bottom: 16px;
+	border: 0;
+	border-radius: 3px;
+	box-shadow: 0 3px 0 0  #bd1962;
+}
+
+button:hover{
+	background: rgba(234,53,90, 0.7);
+	box-shadow: none;
+}
+
+.footer{
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	color: #7a7b7f;
+	margin: 0;
+	margin-top: 23px;
+	margin-bottom: 60px;
+}
+
+a{
+	color: #ea355a;
+	text-decoration: none;
+}
